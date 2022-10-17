@@ -1,37 +1,28 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
-
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
+    <div class="neon-container">
+     <div class="centered">
+      <h1 class="neon-text bigger">My Hobbies</h1>
+     </div>
+    </div>
 
-      <h1>NGINX on Railway</h1>
+  </div>
+    <div class="images-flexbox">
+      <image src="public/drone.png" alt="drone" style="height: 400px;" />
+      <image src="javascript.svg" alt="javascript" style="height: 200px;" />
+      <image src="public/IMG-0692.jpg" alt="drum" style="height: 200px;" />
+      <image src="public/IMG-0310.jpg" alt="robotics" style="height: 200px;" />
 
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
+      
+    </div>
 
-    <script src="/script.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
